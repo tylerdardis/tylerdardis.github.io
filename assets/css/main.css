@@ -3109,7 +3109,7 @@ input, select, textarea {
 			letter-spacing: 0.075em;
 			line-height: calc(3rem - 4px);
 			margin-left: -2px;
-			min-width: 3rem;
+			min-width: 10rem;
 			position: relative;
 			text-align: center;
 			text-decoration: none;
@@ -3143,7 +3143,7 @@ input, select, textarea {
 		.pagination .next:before {
 			content: '\f105';
 			float: right;
-			margin-left: 0.9375em;
+			margin-left: f;
 		}
 
 		@media screen and (max-width: 980px) {
