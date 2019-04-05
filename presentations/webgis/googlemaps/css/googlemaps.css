@@ -1,0 +1,55 @@
+html,body{
+height:100%;
+}
+
+*{
+margin:0;
+  padding:0;
+}
+.wraper{
+height:100%;
+  overflow:hidden;
+}
+
+.sidebar {
+    width: 200px;
+    float:left;
+    min-height:100%;
+	padding-bottom:30px;
+}
+#instructions {
+	padding-top: 30px;
+	text-align:center;
+}
+.footer {
+	 width: 200px;
+	 font-size:9pt;
+	 position:absolute;
+	 bottom:0;
+	 padding-left:4px;
+	 padding-top:5px;
+	 padding-bottom:5px;
+	 height:30px;
+	 width:100%;
+	 color:white;
+	 background:black;
+ }
+.map {
+  margin-left:200px;
+  min-height:100%;
+ }
+ 
+ #header_img {
+	 padding-top: 20px;
+	 width: 70%;
+	 display: block;
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ h2, h5 {
+	text-align:center;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+ }
+ 
+<!----JS CSS---->

@@ -1,0 +1,46 @@
+<!doctype html>
+<html>
+<head>
+	<title>Google Maps API Project</title>
+	<link rel="stylesheet" type="text/css" href="css/googlemaps.css">
+  <style type="text/css">
+    html { height: 100% }
+    body { height: 100%; margin: 0px; padding: 0px }
+    #map_canvas { height: 100% }
+  </style>
+
+ <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDxIhVqoS9P6eWzVJWu0k3qb6HB8isefqc&callback=initMap">
+    </script>
+
+  <script type="text/javascript" src="js/googlemaps.js"></script>
+</head>
+<body onload="schools()">
+<div class="wraper">
+<div class="sidebar">
+<img src="images/sidebar/minnesota_header.png" id="header_img"></img>
+<h2>Minnesota Universities</h2>
+<div id="instructions">
+<h5>Application Instructions</h5>
+<div id="sidebar_info">
+<ul>
+	<li><img src="images/sidebar/leftclick.png" style="width:150px;" id="header_img"></img></li>
+	<li>Left-Click icon to <br>display information</li>
+	<br>
+	<li>Use scrolling to <br>zoom-in and out</li>
+</ul>
+</div>
+</div>
+
+	<div class="footer">
+	Tyler Dardis | Last Revised: 11/16/18 <br> Contact: <a href="mailto:tyler.dardis@mnsu.edu" style="color:white">tyler.dardis@mnsu.edu</a>
+	</div>
+</div>
+<div class="map"  id="map_canvas">
+</div>
+
+
+</div>
+	
+</body>
+</html>
