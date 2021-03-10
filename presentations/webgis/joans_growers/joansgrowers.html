@@ -1,0 +1,44 @@
+<!doctype html>
+<html>
+<head>
+	<title>Joan's Growers</title>
+	<link rel="stylesheet" type="text/css" href="css/joansgrowers.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/css/ol.css" type="text/css">
+  <style type="text/css">
+    html { height: 100% }
+    body { height: 100%; margin: 0px; padding: 0px }
+    #map { height: 100% }
+  </style>
+
+    <script async defer src="https://cdn.jsdelivr.net/gh/openlayers/openlayers.github.io@master/en/v6.5.0/build/ol.js"></script>
+
+  <script type="text/javascript" src="js/joansgrowers.js"></script>
+</head>
+<body onload="schools()">
+<div class="wraper">
+<div class="sidebar">
+<img src="images/sidebar/joans_growers.png" id="header_img"></img>
+<div id="instructions">
+<h5>Application Instructions</h5>
+<div id="sidebar_info">
+<ul>
+	<li><img src="images/sidebar/leftclick.png" style="width:150px;" id="header_img"></img></li>
+	<li>Left-Click icon to <br>display information</li>
+	<br>
+	<li>Use scrolling to <br>zoom-in and out</li>
+</ul>
+</div>
+</div>
+
+	<div class="footer">
+	Tyler Dardis | Last Revised: 3/9/21 <br> Contact: <a href="mailto:tylerdardis@icloud.com" style="color:white">tylerdardis@icloud.com</a>
+	</div>
+</div>
+    <div id="map" class="map"></div>
+</div>
+
+
+</div>
+	
+</body>
+</html>
