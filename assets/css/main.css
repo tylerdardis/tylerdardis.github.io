@@ -298,7 +298,7 @@ input, select, textarea {
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #18bfef !important;
+			color: #cc4e1c !important;
 		}
 
 	strong, b {
@@ -2215,8 +2215,8 @@ input, select, textarea {
 		input[type="button"]:hover,
 		button:hover,
 		.button:hover {
-			box-shadow: inset 0 0 0 2px #18bfef;
-			color: #18bfef !important;
+			box-shadow: inset 0 0 0 2px #cc4e1c;
+			color: #cc4e1c !important;
 		}
 
 		input[type="submit"].primary,
@@ -2234,7 +2234,7 @@ input, select, textarea {
 			input[type="button"].primary:hover,
 			button.primary:hover,
 			.button.primary:hover {
-				background-color: #18bfef;
+				background-color: #cc4e1c;
 			}
 
 /* Form */
@@ -2486,7 +2486,7 @@ input, select, textarea {
 		input[type="email"]:focus,
 		select:focus,
 		textarea:focus {
-			border-color: #18bfef;
+			border-color: #cc4e1c;
 		}
 
 	select {
@@ -2521,7 +2521,7 @@ input, select, textarea {
 
 	input[type="checkbox"]:focus + label:before,
 	input[type="radio"]:focus + label:before {
-		border-color: #18bfef;
+		border-color: #cc4e1c;
 	}
 
 	::-webkit-input-placeholder {
@@ -2869,7 +2869,7 @@ input, select, textarea {
 	}
 
 	ul.icons li a.icon:hover:before {
-		color: #18bfef;
+		color: #cc4e1c;
 	}
 
 	ul.icons.alt li .icon:before {
@@ -2877,7 +2877,7 @@ input, select, textarea {
 	}
 
 	ul.icons.alt li a.icon:hover:before {
-		box-shadow: inset 0 0 0 2px #18bfef;
+		box-shadow: inset 0 0 0 2px #cc4e1c;
 	}
 
 /* Section/Article */
@@ -3171,13 +3171,13 @@ input, select, textarea {
 	}
 
 		.pagination a:hover {
-			color: #18bfef !important;
-			border-color: #18bfef;
+			color: #cc4e1c !important;
+			border-color: #cc4e1c;
 			z-index: 1;
 		}
 
 			.pagination a:hover + a, .pagination a:hover + span {
-				border-left-color: #18bfef;
+				border-left-color: #cc4e1c;
 			}
 
 		.pagination a.active {
@@ -3297,7 +3297,7 @@ input, select, textarea {
 
 			#intro a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cc4e1c !important;
 			}
 
 		#intro strong, #intro b {
@@ -3336,8 +3336,8 @@ input, select, textarea {
 			#intro input[type="button"]:hover,
 			#intro button:hover,
 			#intro .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #cc4e1c;
+				color: #cc4e1c !important;
 			}
 
 			#intro input[type="submit"].primary,
@@ -3355,7 +3355,7 @@ input, select, textarea {
 				#intro input[type="button"].primary:hover,
 				#intro button.primary:hover,
 				#intro .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #cc4e1c;
 				}
 
 		#intro h1 {
@@ -3506,7 +3506,7 @@ input, select, textarea {
 
 			#header a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cc4e1c !important;
 			}
 
 		#header strong, #header b {
@@ -3550,8 +3550,8 @@ input, select, textarea {
 		}
 
 			#header .logo:hover {
-				border-color: #18bfef !important;
-				color: #18bfef !important;
+				border-color: #cc4e1c !important;
+				color: #cc4e1c !important;
 			}
 
 		@media screen and (max-width: 980px) {
@@ -3605,7 +3605,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #cc4e1c;
 		}
 
 		#nav ul.icons.alt li .icon:before {
@@ -3613,7 +3613,7 @@ input, select, textarea {
 		}
 
 		#nav ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #cc4e1c;
 		}
 
 		#nav input, #nav select, #nav textarea {
@@ -3627,7 +3627,7 @@ input, select, textarea {
 
 			#nav a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cc4e1c !important;
 			}
 
 		#nav strong, #nav b {
@@ -3703,7 +3703,7 @@ input, select, textarea {
 					}
 
 						#nav ul.links li.active a:hover {
-							color: #18bfef !important;
+							color: #cc4e1c !important;
 						}
 
 		#nav ul.icons {
@@ -3947,7 +3947,7 @@ input, select, textarea {
 
 			#footer a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cc4e1c !important;
 			}
 
 		#footer strong, #footer b {
@@ -3990,8 +3990,8 @@ input, select, textarea {
 			#footer input[type="button"]:hover,
 			#footer button:hover,
 			#footer .button:hover {
-				box-shadow: inset 0 0 0 2px #18bfef;
-				color: #18bfef !important;
+				box-shadow: inset 0 0 0 2px #cc4e1c;
+				color: #cc4e1c !important;
 			}
 
 			#footer input[type="submit"].primary,
@@ -4009,7 +4009,7 @@ input, select, textarea {
 				#footer input[type="button"].primary:hover,
 				#footer button.primary:hover,
 				#footer .button.primary:hover {
-					background-color: #18bfef;
+					background-color: #cc4e1c;
 				}
 
 		#footer label {
@@ -4029,7 +4029,7 @@ input, select, textarea {
 			#footer input[type="email"]:focus,
 			#footer select:focus,
 			#footer textarea:focus {
-				border-color: #18bfef;
+				border-color: #cc4e1c;
 			}
 
 		#footer select {
@@ -4064,7 +4064,7 @@ input, select, textarea {
 
 		#footer input[type="checkbox"]:focus + label:before,
 		#footer input[type="radio"]:focus + label:before {
-			border-color: #18bfef;
+			border-color: #cc4e1c;
 		}
 
 		#footer ::-webkit-input-placeholder {
@@ -4092,7 +4092,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons li a.icon:hover:before {
-			color: #18bfef;
+			color: #cc4e1c;
 		}
 
 		#footer ul.icons.alt li .icon:before {
@@ -4100,7 +4100,7 @@ input, select, textarea {
 		}
 
 		#footer ul.icons.alt li a.icon:hover:before {
-			box-shadow: inset 0 0 0 2px #18bfef;
+			box-shadow: inset 0 0 0 2px #cc4e1c;
 		}
 
 		#footer header.major .date:before, #footer header.major .date:after {
@@ -4140,13 +4140,13 @@ input, select, textarea {
 		}
 
 			#footer .pagination a:hover {
-				color: #18bfef !important;
-				border-color: #18bfef;
+				color: #cc4e1c !important;
+				border-color: #cc4e1c;
 				z-index: 1;
 			}
 
 				#footer .pagination a:hover + a, #footer .pagination a:hover + span {
-					border-left-color: #18bfef;
+					border-left-color: #cc4e1c;
 				}
 
 			#footer .pagination a.active {
@@ -4383,7 +4383,7 @@ input, select, textarea {
 
 			#copyright a:hover {
 				border-bottom-color: transparent;
-				color: #18bfef !important;
+				color: #cc4e1c !important;
 			}
 
 		#copyright strong, #copyright b {
