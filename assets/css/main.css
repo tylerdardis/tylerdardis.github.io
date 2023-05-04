@@ -3361,13 +3361,14 @@ input, select, textarea {
 		#intro h1 {
 			font-size: 5rem;
 			line-height: 1;
+			filter: drop-shadow(2px 2px 3px #000000)
 		}
 
-		#intro p {
+		#intro h3 {
 			font-size: 1.25rem;
-			font-style: italic;
 			margin-top: -0.25rem;
 			text-align: center;
+			filter: drop-shadow(2px 2px 3px #000000);
 		}
 
 		#intro + #header {
@@ -3459,6 +3460,7 @@ input, select, textarea {
 
 				#intro .actions {
 					display: none;
+					
 				}
 
 		}
@@ -3493,6 +3495,7 @@ input, select, textarea {
 		position: relative;
 		text-align: center;
 		z-index: 2;
+		filter: drop-shadow(2px 2px 3px #000000)
 	}
 
 		#header input, #header select, #header textarea {
@@ -3547,6 +3550,7 @@ input, select, textarea {
 			padding: 1rem 1.75rem;
 			text-transform: uppercase;
 			visibility: visible;
+			
 		}
 
 			#header .logo:hover {
@@ -3598,6 +3602,7 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		filter: drop-shadow(2px 2px 3px #000000)
 	}
 
 		#nav ul.divided li {
